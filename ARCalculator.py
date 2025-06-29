@@ -23,7 +23,7 @@ class ARCalculator():
     
     def __init_attr_sat(self):
         attr_sat = {}
-        with open('attr_saturation.txt', 'r') as file:
+        with open('data/attr_saturation.txt', 'r') as file:
             lines = file.readlines()
             for i in range(len(lines)):
                 line = lines[i]
