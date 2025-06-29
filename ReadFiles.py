@@ -10,13 +10,13 @@ import pandas as pd
 
 def ReadArmorSets():
     # Read armor set stats into dataframe without 'totals'
-    df = pd.read_csv('armor_sets_sheet.csv')
+    df = pd.read_csv('data/armor_sets_sheet.csv')
     df = df[df['Set pieces'] != 'Totals']
 
     armor_sets = {}
 
     # Read set name for each set(chunk) in dataframe and create an ArmorSet
-    with open('armor_sets_list.txt', 'r') as file:
+    with open('data/armor_sets_list.txt', 'r') as file:
         for i in range(0, len(df), 4):
             chunk = df.iloc[i:i + 4] # armor set
             # isolate data for each component of the set
