@@ -1,0 +1,25 @@
+ashen_set,Ashen Hunter Set
+bl_church_set,Black Church Set
+bone_ash_set,Bone Ash Set
+cainhurst_set,Cainhurst Set
+ch_hunter_set,Charred Hunter Set
+choir_set,Choir Set
+crowfeather_set,Crowfeather Set
+doll_set,Doll Set
+exec_set,Executioner Set
+foreign_set,Foreign Set
+gascoigne_set,Gascoigne Set
+gehrman_set,Gehrman Set
+graveguard_set,Graveguard Set
+henryk_set,Henryk Set
+hunter_set,Hunter Set (A)
+hunter_set_b,Hunter Set (B)
+knight_set,Knight Set
+madman_set,Madman Set
+shabby_set,Shabby Set
+student_set_s,Student Set (short)
+student_set_l,Student Set (long)
+tombprosp_set,Tomb Prospector Set
+wh_church_set,White Church Set
+yh_hunter_set,Yharnam Hunter Set
+yahargul_set,Yahar'gul Set
