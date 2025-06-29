@@ -12,7 +12,7 @@ from ArmorSet import ArmorSet
 
 class DRPlotter:
     def __init__(self):
-        images = ['physical_DEF.jpg','VS_blunt.jpg','VS_thrust.jpg','blood_DEF.jpg','arcane_DEF.jpg','fire_DEF.jpg','bolt_DEF.jpg']
+        images = ['images/physical_DEF.jpg','images/VS_blunt.jpg','images/VS_thrust.jpg','images/blood_DEF.jpg','images/arcane_DEF.jpg','images/fire_DEF.jpg','images/bolt_DEF.jpg']
         self.loaded_images = [image.imread(file) for file in images]
     
     def plot_single(self, armor_set: ArmorSet):
@@ -133,7 +133,7 @@ class DRPlotter:
 
 class ResPlotter():
     def __init__(self):
-        images = ['beasthood.jpg','slow_poison_RES.jpg','frenzy_RES.jpg','rapid_poison_RES.jpg']
+        images = ['images/beasthood.jpg','images/slow_poison_RES.jpg','images/frenzy_RES.jpg','images/rapid_poison_RES.jpg']
         self.loaded_images = [image.imread(file) for file in images]
     
     def plot_single(self, armor_set: ArmorSet):
