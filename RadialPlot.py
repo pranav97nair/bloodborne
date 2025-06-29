@@ -29,7 +29,7 @@ ax.set_xticklabels(['P', 'B', 'T', 'Bd', 'A', 'F', 'B']) # placeholder labels
 ax.tick_params(pad=4)
 
 # Configure image labels
-images = ['physical_DEF.jpg','VS_blunt.jpg','VS_thrust.jpg','blood_DEF.jpg','arcane_DEF.jpg','fire_DEF.jpg','bolt_DEF.jpg']
+images = ['images/physical_DEF.jpg','images/VS_blunt.jpg','images/VS_thrust.jpg','images/blood_DEF.jpg','images/arcane_DEF.jpg','images/fire_DEF.jpg','images/bolt_DEF.jpg']
 loaded_images = [image.imread(file) for file in images]
 
 # physical
