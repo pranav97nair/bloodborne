@@ -61,7 +61,7 @@ class LudwigHolyBlade(Weapon):
             self.__dmg_dict[i] = [100 + 10*i, 0, 0, 0, 0]
         
         self.__scale_dict = {}
-        with open('ludwig_hb_scaling.txt', 'r') as file:
+        with open('data/ludwig_hb_scaling.txt', 'r') as file:
             for i in range(11):
                 line = file.readline()
                 index, str_scl, skl_scl, blt_scl, arc_scl = line.strip().split(',')
